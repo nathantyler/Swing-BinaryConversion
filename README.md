@@ -9,3 +9,6 @@ exercise sometime before.
 
 Eventually I want to convert the longs to BigIntegers so the size of the number
 is never really an issue. That's the next version.
+
+(This branch will likely not change from this point unless
+I add something that should be common to all versions).
