@@ -6,6 +6,16 @@ import java.awt.GridLayout;
 
 import javax.swing.*;
 
+/* 
+ * By Nathan Tyler N.
+ * Last edit 10-22-2019.
+ * 
+ * This is basically an older legacy version that most likely
+ * will not undergo anymore changes. SimplifiedWindow is now
+ * the primary version. Leaving this here just in case it's
+ * needed down the road.
+ * */
+
 public class WindowMain {
 
 	public static void main(String[] args) {

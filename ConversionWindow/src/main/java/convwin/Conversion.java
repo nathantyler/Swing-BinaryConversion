@@ -1,6 +1,15 @@
 package convwin;
 
 
+/* 
+ * By Nathan Tyler N.
+ * Last edit 10-22-2019.
+ * 
+ * To do:
+ * Convert data type in Conversion class from long to BigInteger, 
+ * so the numbers can be arbitrarily (within reason) large.
+ * */
+
 public class Conversion {
 	public static long getBinaryLength(long n) {
 		long quotient = n, i = 0;
