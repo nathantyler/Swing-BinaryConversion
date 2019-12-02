@@ -1,13 +1,8 @@
-# safe-room
+# Swing-BinaryConversion
 
-This is just a small little app to learn the very basics
-of Swing.
+This is just a small little app to learn some basics of Swing.
 
-I just needed some small thing to learn about action listeners
-so I settled on binary conversion that I had already written as an
-exercise sometime before.
+Time and ambition permitting, switching from Longs to BigIntegers is a goal, so that there will be no limitations with number size.
 
-Eventually I want to convert the longs to BigIntegers so the size of the number
-is never really an issue. That's the next version.
 
 (This branch will be the working branch for the conversion from long to BigInteger).
