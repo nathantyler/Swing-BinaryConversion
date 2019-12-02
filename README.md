@@ -1,4 +1,4 @@
-# Swing-BinaryConversion-Long
+# Swing-BinaryConversion
 
 This is just a small little app to learn some basics of Swing.
 
