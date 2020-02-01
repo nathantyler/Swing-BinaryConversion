@@ -15,7 +15,7 @@ public class Converter {
     public static long getBinaryLength(long n) {
         long quotient = n, i = 0;
         if (n < 0)
-            quotient += -1;
+            quotient *= -1;
 
         while (quotient > 1) {
             quotient = quotient / 2;
