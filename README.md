@@ -2,7 +2,7 @@
 
 This is just a small little app to learn some basics of Swing.
 
-Time and ambition permitting, switching from Longs to BigIntegers is a goal, so that there will be no limitations with number size.
+Finally added support for BigIntergers.
 
-
-(This branch will be the working branch for the conversion from long to BigInteger).
+(This branch will likely not change from this point unless
+I add something that should be common to all versions) -- Which just happened today.

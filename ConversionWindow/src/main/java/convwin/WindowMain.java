@@ -1,6 +1,6 @@
 package convwin;
 
-import static convwin.Conversion.*;
+import static convwin.ConverterOld.*;
 
 import java.awt.GridLayout;
 
@@ -8,7 +8,7 @@ import javax.swing.*;
 
 /* 
  * By Nathan Tyler N.
- * Last edit 10-22-2019.
+ * Last edit 1-31-2020.
  * 
  * This is basically an older legacy version that most likely
  * will not undergo anymore changes. SimplifiedWindow is now
@@ -16,8 +16,10 @@ import javax.swing.*;
  * needed down the road.
  * */
 
+@Deprecated
 public class WindowMain {
 
+	@SuppressWarnings("Duplicates")
 	public static void main(String[] args) {
 		JFrame frame = new JFrame("Binary Conversion");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
