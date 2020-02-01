@@ -1,20 +1,18 @@
 package convwin;
 
-import static convwin.Conversion.*;
+import static convwin.Converter.*;
 
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridLayout;
+import java.math.*;
 
 import javax.swing.*;
 
 /* 
  * By Nathan Tyler N.
- * Last edit 10-22-2019.
- * 
- * To do:
- * Convert data type in Conversion class from long to BigInteger, 
- * so the numbers can be arbitrarily (within reason) large.
+ * Last edit 1-31-2020.
+ *
  * */
 
 public class SimplifiedWindow {
@@ -48,7 +46,7 @@ public class SimplifiedWindow {
 		decToBinButton.addActionListener(al -> {
 			String decStr = convText.getText();
 			try {
-				long dec = Long.parseLong(decStr);
+				BigInteger dec = new BigInteger(decStr);
 				convText.setText(decimalToBinary(dec));
 			} catch (NumberFormatException e) {
 				JOptionPane.showMessageDialog(null, "That's not a number!");
@@ -60,7 +58,7 @@ public class SimplifiedWindow {
 			if (!isBinary(binStr))
 				JOptionPane.showMessageDialog(null, "That's not binary!");
 			else {
-				convText.setText(Long.valueOf(binaryToDecimal(binStr)).toString());
+				convText.setText(binaryToDecimalBigInteger(binStr).toString());
 			}
 		});
 
